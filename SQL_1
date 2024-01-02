@@ -1,0 +1,19 @@
+Today i'm Studygm SQL
+
+SQL  is a linguager from programn from Microsof
+he is use to do Bankbases ,
+he is a big help to we programns 
+Now me spenk a little about comand
+
+CREAT DATABASE Name_Database; : here is where you create your DataBase you can put any name in your database
+
+CRETE TABLE Name from table; : that comamd it use to creat a new table 
+where this wrife Name from table is the name what you go put in table
+
+Insert into Name_table Values  ('Roberto','13'),('Maria','12') : Insert into is a comand what you can put values or value in your table 
+to you put  values you need use () to put and ofter use '' to put values so while over  is want put other value put ,
+
+drop table or Drop database: you Drop a table or a database
+
+
+
