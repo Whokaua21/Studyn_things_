@@ -1,7 +1,7 @@
 Today i'm Studygm SQL
 
 SQL  is a linguager from programn from Microsof
-he is use to do Bankbases ,
+he is use to do Database ,
 he is a big help to we programns 
 Now me spenk a little about comand
 
@@ -14,6 +14,91 @@ Insert into Name_table Values  ('Roberto','13'),('Maria','12') : Insert into is 
 to you put  values you need use () to put and ofter use '' to put values so while over  is want put other value put ,
 
 drop table or Drop database: you Drop a table or a database
+
+Alter Table Name_var ADD column Name_column :  this comand creat a column  in your table this comand,
+it's very good to you becase if you forget of put a column you to place ofter
+
+Alter Table  Name_var Modify column Name_colum type or other thing: this comand  can modify a column how type ,function or limit
+
+Alter table  Name_var change column Name_exist (other name) type :Comand to replace the name from column and the type
+
+Alter Table  Name_var rename New_var : you too can replace the name from Table
+
+Where : Where in SQL is type a if and else i think
+he is type a conditional ,he just go do this if the conditional  is true
+you go use much that
+i recommend you find in internet that 
+
+Update  Name_var set (Name from column) = 'Something' where Id = '2':Now Update is very Literal you can Update a column
+
+Delete from  Name_table where Id = '10':Too explicate you can delete something from a column 
+
+Truncate Table Name_table: you delete all from a table
+
+* : He in SQL e  all
+Select * from Name_table: This comand show all from a table but
+you can just show one thing or more
+EX:
+
+select Id,Name,year from Name_table
+
+you can organize the table in order usando Order by Name_column
+
+EX:
+
+Select Nome from Name_table 
+order by;
+
+You too can use operator logicians how (=,>,<,>=,<=.!=,not,and,or)
+
+Ex:
+
+Select Name,Year,Buy from Name_table Where
+Buy > 20 and Year < 2022;
+
+you can use Between
+
+Ex:
+
+select Name,Buy from Name_table where
+Name_column Between '20' and '80'
+
+Too have functions how (Max,Cont,Min and Sum)
+EX:
+
+Select max(Buy) from Name_table
+
+Select Cont(ID) from Name_table
+
+Select Min(Buy) from Name_table
+
+Select Sum(Buy) from Name_table
+
+Have too a Distinct what take informat without  repeat
+
+EX:
+
+Select Distinct Year from Name_table
+
+have Comand Like what you can take informat from one letter
+
+Ex:
+% : Anything
+_: Mandatory have something
+
+select name from Name_table 
+where name Like ('A%');
+
+Select name from Name_table
+where name like ('A_')
+
+Select name from Name_table
+whwre name like ('A%_')
+
+
+
+
+
 
 
 
