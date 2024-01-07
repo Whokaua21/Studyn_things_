@@ -95,8 +95,23 @@ where name like ('A_')
 Select name from Name_table
 whwre name like ('A%_')
 
+New comands
 
+Select var_calum from table 
+Group by:you can goup informats 
 
+EX:
+julio  julio  julio
+marcele  maecele
+DUDA  DUDa
+
+Group by EX:
+select names,count(names) from table
+group by nomes
+
+julio 3
+marcele 2
+DUDA 1
 
 
 
