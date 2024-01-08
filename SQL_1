@@ -1,9 +1,14 @@
+
 Today i'm Studygm SQL
 
-SQL  is a linguager from programn from Microsof
-he is use to do Database ,
-he is a big help to we programns 
-Now me spenk a little about comand
+OBS:this text don't is to 100% study 
+is done to remember something what you forget .
+
+
+SQL is a language from Microsoft,
+is done to do Database ,
+he  a big help to we programns
+Now me spenk a little about comands
 
 CREAT DATABASE Name_Database; : here is where you create your DataBase you can put any name in your database
 
@@ -114,6 +119,34 @@ marcele 2
 DUDA 1
 
 
+Too have are keys
+all table heve what one key primary
+EX:
+create table ID (
+id int auto_increment,
+name varchar (20)
+primay key (id)
+);
 
+the key is kind a referente from table with that you can use keys from other table
+the name they is foreign keys
 
+now go teach how do a foreign keys
+
+EX:
+create table Id_name (
+id_pr int auto_increment,
+name varchar (20)
+id_fore
+primay key (id_pr)
+foreign key (id_fore) referet ID
+);
+
+to join the table you need from a primay key and a table
+
+take explom from table Id_name to do 
+
+select * from Id_name join ID on Id_name.id_fore = id.id
+
+exist other join how:  left join,rigth join,full join and inner join
 
